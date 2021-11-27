@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;1,300&family=Roboto:wght@300&display=swap');
+
+header {
+  font-family: 'libre franklin'; sans-serif;
+  padding-top: 10px;
+  text-align: center;
+  font-color: white;
+  background-color: blue;
+  padding-bottom: 10px;
+}
+
+#description {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+body {
+  
+  font-family: helvetica;
+  line-height: 1.2;
+  width: 500px;
+  margin: 0 auto;
+  background-color: sand-white;
+  background-image: url('https://st.depositphotos.com/1508766/2343/i/600/depositphotos_23432192-stock-photo-philippine-flag-drawn-on-white.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.container {
+  background-color: white;
+  opacity: 0.8;
+}
+
+form {
+    background-color: #940400;
+    padding: 2.5rem 2.5rem;
+    border-radius: 0.25rem;
+    opacity: 0.9;
+    display: block;
+    font-size: 20px;
+    margin: auto;
+}
+
+.submit-button {
+  background-color: white;
+  border-radius: 20px;
+  width: 100px;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.form-control {
+  display: block;
+  width: 400px;
+  height: 2rem;
+  padding: 0.25rem;
+}

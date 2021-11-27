@@ -1,0 +1,124 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html> 
+
+<html>
+<div class="container">  
+ <header>    
+  <h1 id="title" class="text-center">2022 Philippine Presidential Elections Survey Form</h1>
+  </header>  
+   
+  <p id="description" class="description text-center">This survey form tends to identify which aspiring Philippine presidential candidate will be voted by selected citizens.</p>
+  </div>
+
+ <body>   
+  <form action="#" id="survey-form"> 
+    
+      <div class="form-group">
+        <label id="name-label" for="name" style="color: #e6f4ec";><b>Name</b></label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+    </div>
+    <br>
+    
+    <div class="form-group">
+      <label id="email-label" for="email" style="color: #e6f4ec";><b>Email</b></label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+    </div>
+    <br>
+    
+    <div class="form-group">
+      <label id="number-label" for="age" style="color: #e6f4ec";><b>Age</b></label>
+      <input type="number" name="age" id="number" class="form-control" placeholder="18" min="18" max="100" required>
+    </div>
+    <br>
+    
+    <div class="form-group">
+      <p style="color: #e6f4ec";><b>Who among the presidential candidates will you vote?</b></p>
+      <select id="dropdown" name="presidential candidates" class="form-control" required>
+        <option disabled selected value>Select Presidential Candidate</option>
+        <option value="Isko_Moreno">Isko Moreno</option>
+        <option value="Bongbong_Marcos">Bongbong Marcos</option>
+        <option value="Leni_Robredo">Leni Robredo</option>
+        <option value="Ping_Lacson">Ping Lacson</option>
+        <option value="Manny_Pacquiao">Manny Pacquiao</option>
+      </select>
+    </div>
+    <br>
+    
+    <div class="form-group">
+      <p style="color: #e6f4ec";><b>What particular national issue should the presidentiable focus on?</b></p>
+      <label style="color: #e6f4ec";>
+        <input name="national-issue" value="Covid Pandemic Response" id="Covid Pandemic Response" type="radio" class="input-radio">
+        Covid Pandemic Response
+      </label>
+      <br>
+      
+      <label style="color: #e6f4ec";>
+        <input name="national-issue" value="Rebuilding of Economy" id="Rebuilding of Economy" type="radio" class="input-radio">
+        Rebuilding of Economy
+      </label>
+      <br>
+      
+      <label style="color: #e6f4ec";>
+        <input name="national-issue" value="Defense of West Philippine Sea" id="Defense of West Philippine Sea" type="radio" class="input-radio">
+       Defense of West Philippine Sea
+      </label>
+      <br>
+      
+      <label style="color: #e6f4ec";>
+        <input name="national-issue" value="Oil Price Hike" id="Oil Price Hike" type="radio" class="input-radio">
+       Oil Price Hike
+      </label>
+    </div>  
+    <br>
+    
+    <div class="form-group">
+      <p style="color: #e6f4ec";><b>Which character traits should a candidate possess?</b> <span class="clue">(Check all that apply)</span></p>
+      
+      <label style="color: #e6f4ec";>
+        <input name="trait" value="Strict and with iron fist" type="checkbox" class="input-checkbox">Strict and with iron fist</label>
+      <br>
+      <label style="color: #e6f4ec";>
+        <input name="trait" value="With a saintly image" type="checkbox" class="input-checkbox">With a saintly image</label>
+      <br>
+      <label style="color: #e6f4ec";>
+        <input name="trait" value="Who doesn't tolerate corruption" type="checkbox" class="input-checkbox">Who doesn't tolerate corruption</label>
+      <br>
+      <label style="color: #e6f4ec";>
+        <input name="trait" value="Who has balls to defend West Philippine Sea" type="checkbox" class="input-checkbox">Who has balls to defend West Philippine Sea</label>
+      <br>
+      <label style="color: #e6f4ec";>
+        <input name="trait" value="Who has knowledge on managing the economy" type="checkbox" class="input-checkbox">Who has knowledge on managing the economy</label>
+      <br>
+      <label style="color: #e6f4ec";>
+        <input name="trait" value="Someone who will generate a lot of jobs" type="checkbox" class="input-checkbox">Someone who will generate a lot of jobs</label>
+      <br>
+      <label style="color: #e6f4ec";>
+        <input name="trait" value="Someone who will prioritize climate change" type="checkbox" class="input-checkbox">Someone who will prioritize climate change</label>
+      <br>
+      <label style="color: #e6f4ec";>
+        <input name="trait" value="Someone who will prioritize poverty and education" type="checkbox" class="input-checkbox">Someone who will prioritize poverty and education</label>
+    </div> 
+      <br>
+      
+      <div class="form-group">
+        <p style="color: #e6f4ec";><b>Message for presidential aspirant:</b></p>
+        <textarea id="message" class"input-area" name="message" placeholder="Enter your message here..." rows="5" cols="53"></textarea>
+      </div>
+      <br>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+      </div>
+    </form>
+   
+  </body>
+  
+  
+</html>
